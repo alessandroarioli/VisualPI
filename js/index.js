@@ -1,8 +1,8 @@
-let r = 200;
-let pointWeight = 0.1;
-let totalDots = 0;
-let circleDots = 0;
-let recordPi;
+const r = 200;
+const pointWeight = 0.1;
+const totalDots = 0;
+const circleDots = 0;
+const recordPi;
 
 function setup() {
     createCanvas(windowWidth, 600);
