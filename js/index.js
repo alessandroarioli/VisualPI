@@ -30,7 +30,7 @@ function draw() {
 
         let d = x * x + y * y;
 
-        if (d < r * r) {
+        if (d <= r * r) {
             circleDots++;
             stroke(100, 255, 0);
         } else {
