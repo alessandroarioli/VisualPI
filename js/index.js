@@ -1,4 +1,5 @@
 let r = 200;
+let pointWeight = 0.1;
 let totalDots = 0;
 let circleDots = 0;
 let recordPi;
@@ -8,7 +9,7 @@ function setup() {
     background(0);
     translate(width / 2, height / 2);
     stroke(255);
-    strokeWeight(4);
+    strokeWeight(pointWeight);
     noFill();
     ellipse(0, 0, r * 2, r * 2);
     rectMode(CENTER);
